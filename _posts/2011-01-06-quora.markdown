@@ -1,0 +1,11 @@
+---
+layout: post
+title: Quora
+date: '2011-01-06 09:37:30'
+tags:
+- quora
+---
+
+<p>Esto de las redes sociales es interesante, sin embargo, de poco sirven cuando no tienes amigos / seguidores / compadres / preguntones o lo que sea. La nueva próxima gran red social que provocará un nuevo boom de acuerdo a todos los expertos se llama</p>
+<p><strong><a title="Quora" target="_blank" href="http://www.quora.com">Quora</a></strong></p>
+<p>Si me buscas ahí, me podrás encontrar como <em>Luis Elizondo</em></p>

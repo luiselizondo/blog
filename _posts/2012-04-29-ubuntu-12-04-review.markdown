@@ -1,0 +1,43 @@
+---
+layout: post
+title: Ubuntu 12.04 Review
+date: '2012-04-29 13:43:00'
+tags:
+- ubuntu
+---
+
+<p>Edit: Unity is not red, is transparent, my background was making it red.</p>
+<p>This is going to be a long post, but I&#8217;ll save you the time and give you my personal conclusion: <strong>If you&#8217;re using 11.10, don&#8217;t update!</strong></p>
+<p>Now I&#8217;ll explain why you shouldn&#8217;t update, at least not right now.</p>
+<p>What&#8217;s new and good in Ubuntu 12.04?</p>
+<p><strike>Unity is Red.</strike> Unity is transparent. I&#8217;m not kidding, there aren&#8217;t too much &#8220;visual&#8221; changes that you&#8217;ll notice, <strike>but the main one is that Unity is not Red</strike>. BTW, I don&#8217;t like it.</p>
+<p>As usual, Ubuntu updates many packages to the new version, like LibreOffice, Firefox, and many more.</p>
+<p>One thing I did like because I did it with 11.10 editing files, is that now if you right-click on the home folder, you&#8217;ll get access to all your bookmarked folders. That&#8217;s cool.</p>
+<p>Video search is also another thing you might like, I really don&#8217;t have too much videos and when I watch videos I do it online. Unity provides a search interface for videos, it can even search the web for videos! But there&#8217;s a catch, it will not search YouTube, so that makes it pretty much useless.</p>
+<p>It didn&#8217;t break my PC. This is always a good thing and something I always admired about Ubuntu. I&#8217;ve been upgrading since 8.04 (that&#8217;s 8 upgrades!) without formatting my HD and I never lost a file. Try to do that with Windows.</p>
+<p>Boots faster, at least in my machine it boots at least 2 seconds faster than before. I can&#8217;t prove this since I didn&#8217;t recorded a video using 11.10 but I did notice that is booting faster.</p>
+<p><strong>What&#8217;s new and bad in Ubuntu 12.04?</strong></p>
+<p>I must start saying that most of the things I&#8217;ll write about, it might be a configuration in my PC that got broken, but nevertheless, I&#8217;ll talk about things that were working on 11.04</p>
+<p>No wow moment</p>
+<p>Cannonical just lost me this time, I always had a wow moment every 6 months.I I&#8217;m probably the only guy in the world who actually likes Unity and said wow the first I used it, but now I really don&#8217;t see any improvements. Not even a cool wallpaper or a new window theme. Nothing, 12.04 feels just like 11.10, but worse.</p>
+<p><em>No recent apps or favorites apps on Unity.</em></p>
+<p>Yeah, 11.10 used to identify your most used apps and moved them to the first screen once you click on the unity button, but apparently they decided to remove the only good thing about Unity that Gnome 2.x didn&#8217;t have. Now, you just have the most recent apps.</p>
+<p>I could change to Gnome 3, but I really don&#8217;t like it, I think is even worst in many aspects than Unity. They tried to re-invent the wheel and it doesn&#8217;t work, at least for me. I have to click more to do the same things I could do with Gnome 2 or Unity.</p>
+<p><em>Rhythmbox is back</em></p>
+<p>I never really liked Rhythmbox, I always liked more Banshee, it feels more like a serious Media Player instead of just one MP3 player. For me this is a big regression. Banshee can play videos and I think it has a set of features that Rhythmbox doesn&#8217;t have.</p>
+<p><em>No hibernate option</em></p>
+<p>Believe it or not, I don&#8217;t like to shutdown my computer. It usually can go for weeks without a shutdown or restart. I like to start my computer exactly where I left it the night before, and for that I use hibernation, which for some reason Cannonical decided to remove it or it got broken when I updated to 12.04.</p>
+<p>Edit: You can get back this feature by editing a single line in a file, but seriously, I shouldn&#8217;t have to be doing this.</p>
+<p><em>Bugs</em></p>
+<p>I usually never upgrade this fast, I usually wait for at least one or two weeks before I upgrade. Now I just upgraded the very first day and that has consecuenses. After I rebooted the machine, I got errors. Nothing really important, but that was the first time I got scared in many years.</p>
+<p>Ubuntu doesn&#8217;t like Chrome</p>
+<p>Again, this might only happened to me, but for some reason, Ubuntu decided to remove Google Chrome so I had to reinstall it again.</p>
+<p>Evolution is back</p>
+<p>Remember when they switched to Thunderbird like a year ago? Well, they switched back to Evolution. Don&#8217;t get me wrong, I have nothing against Evolution, in fact, I think is a really good alternative for Microsoft Windows, but I already use Thunderbird on my Mac so I don&#8217;t see why I would create myself problems and start using different clients. If I had to use Windows (which I don&#8217;t thank God!), Thunderbird would still be available to me as an option.</p>
+<p>Edit: Someone told me that Evolution is not back, that Thunderbird is still the default email client, but for some reason, Evolution was installed on my system when I didn&#8217;t have it before.</p>
+<p><em>Cannonical lost 6 months</em></p>
+<p>One of the things I hate about Linux and specially Cannonical is that they always try to catch up with new technologies (which is good) but they leave too many things behind unsolved. Take a look at Unity, they had 6 months to solve all the major complains about Unity, and they didn&#8217;t address a single one.</p>
+<p>You still can&#8217;t move Unity. If you right click on it, nothing happens. <strike>You can&#8217;t still adjust the dimensions.</strike> And my personal favourite, it is still hard to add a new menu launcher to Unity. Cannonical needs to understand that it needs to focus on UX/UI so it can really compete with Windows / OS. Because that&#8217;s still the goal am I right? There&#8217;s still hundreds of really cool ideas at <a href="http://brainstorm.ubuntu.com">http://brainstorm.ubuntu.com</a> that are just dead. Like this one: <a href="http://brainstorm.ubuntu.com/idea/17165/">http://brainstorm.ubuntu.com/idea/17165/</a> which Mac has had for years now.</p>
+<p>Ubuntu is not as pretty as Mac OS and it will certainly will not be as pretty as Windows 8. I&#8217;m not gonna change because of pretty, but I wouldn&#8217;t mind using a &#8220;cool&#8221; OS that not only works great, but is also pretty.</p>
+<p>Cannonical needs to work on better features, even if that means to copy the Mac, I don&#8217;t care as longs as it works. So don&#8217;t let me down in 6 months Cannonical. It might be the last change you&#8217;ve got.</p>
+<p>My personal conclusion is that I&#8217;ll try to upgrade my PC at work in 3 or 4 months, for now, I&#8217;m really happy with 11.10</p>

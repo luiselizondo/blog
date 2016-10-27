@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -e
+set -u
+
+BUILD_DIRECTORY=$1
+
+jekyll build
+
+rm -Rf $BUILD_DIRECTORY/*
+mv -f _site/* $BUILD_DIRECTORY/

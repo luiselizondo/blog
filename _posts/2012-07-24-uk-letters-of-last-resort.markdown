@@ -1,0 +1,15 @@
+---
+layout: post
+title: UK Letters of last resort
+date: '2012-07-24 09:43:52'
+---
+
+<p>I found this on Wikipedia and I thought it was very interesting. In the event of a nuclear attack against the UK (imagine London), the government will likely be destroyed and will not be able to respond to the aggression. I&#8217;m not an expert on this subject but my guess is the US is better prepared if that situation ever happens, they have a huge list of people that will be named POTUS, so the possibility that all the people in the list is dead is very unlikely. The UK has only two, the current PM and one more person.</p>
+
+<p>So what to do if London is attacked by a nuclear weapon? Well, they have Letters of Last Resort, which are hand-written letters given by the PM (Prime Minister) to the commanders of the UK&#8217;s nuclear submarines. From <a href="http://en.wikipedia.org/wiki/Nuclear_weapons_and_the_United_Kingdom#Nuclear_weapons_control">Wikipedia</a>:</p>
+
+<p><a name="cite_ref-77" id="cite_ref-77"></a>&#8220;&#8230; It was explained that all prime ministers issue hand-written orders, termed the <a href="http://en.wikipedia.org/wiki/Letters_of_last_resort">letters of last resort</a>,<a href="http://en.wikipedia.org/wiki/Nuclear_weapons_and_the_United_Kingdom#cite_note-77">[78]</a> seen by their eyes only, sealed and stored within the safes of each of the <strong>four Royal Navy trident submarines</strong>: These notes instruct the captain of what action to take in the event of the United Kingdom being attacked with nuclear weapons that destroy Her Majesty&#8217;s Government in the United Kingdom and/or the chain of command. Although the final orders of the Prime Minister are at his or her discretion, and no fixed options exist, four known options are often presented to prime ministers by military advisers when writing such notes of last resort: <strong>(i) Captain ordered to respond to the nuclear attack on the UK by launching submarine&#8217;s nuclear weapons; (ii) Captain ordered not to respond with nuclear weapons; (iii) Captain ordered to use own judgement whether to return fire with nuclear weapons; (iv) Captain ordered to place himself and ship under the command of <a href="http://en.wikipedia.org/wiki/Government_of_Australia">Her Majesty&#8217;s Government in Australia</a>, or alternatively of the <a href="http://en.wikipedia.org/wiki/President_of_the_United_States">President of the United States</a>.</strong>&#8221;</p>
+
+<p>What I found most interesting is the fact that the PM&#8217;s military advisers would recommend that the Captain places himself under the command of a Country that doesn&#8217;t have Nuclear Weapons like Australia or under the command of POTUS. I guess that proves the relationship between the US and the UK.</p>
+
+<p>I seriously hope that if we ever see this is only in a movie, because if we get to see this for real, that would mean we&#8217;re talking about the end of the world.</p>

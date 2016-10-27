@@ -1,0 +1,10 @@
+---
+layout: post
+title: How to completely remove packages with apt-get on Ubuntu Linux?
+date: '2014-05-22 03:18:15'
+tags:
+- linux
+- ubuntu
+---
+
+<p>The other day I was upgrading docker (which is awesome BTW) to the newest version, but the Ubuntu repository already has a docker package which is like 4 versions old. The old docker is actually named "docker.io" so a long time ago I created a symlink from docker.io to docker, but I forgot to remove it before upgrading.</p><p>This silly situation left me with an installed but totally unusable docker package. What happened is that lxc-docker couldn't install be installed in /usr/bin/docker because there was another file (a symlink) with the same name. So I removed the symlink /usr/bin/docker, and I reinstalled lxc-docker, only to realize that it didn't work.</p><p>I tried several things until I realized that the best way to proceed was to completely remove lxc-docker and install it again. So this is what I did:</p><p>[code]sudo apt-get remove --purge lxc-docker[/code]</p><p>[code]sudo apt-get install lxc-docker[/code]</p><p>You would think that works, except that it doesn't. I then did:</p><p>[code]sudo apt-get remove --purge lxc-docker[/code]</p><p>[code]sudo apt-get purge lxc-docker[/code]</p><p>[code]sudo apt-get install lxc-docker --reinstall[/code]</p><p>But again, that didn't work. Turns out, that the correct way to do this is:</p><p>[code]sudo apt-get remove --purge lxc-docker[/code]</p><p>[code]sudo apt-get autoremove --purge[/code]</p><p>[code]sudo apt-get install lxc-docker[/code]</p><p>The autoremove is as important as the remove --purge. Conclusions:</p><ol><li>Don't ever symlink to /usr/bin/, use /usr/local/bin instead</li><li>If you want to completely remove a package, you need to autoremove after you remove them. Weird!</li></ol><p>&nbsp;</p>
