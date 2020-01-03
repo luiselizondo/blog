@@ -8,7 +8,7 @@ body {
   color: $base-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 /*--------------
@@ -29,12 +29,17 @@ a {
   Header
   -------------- */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: .5rem;
   font-weight: 600;
   line-height: 1.1;
-  color: #333;
+  color: $base-color;
   letter-spacing: -.025rem;
 }
 
@@ -50,11 +55,11 @@ h3 {
   font-size: 1.5rem;
 }
 
-h4{
+h4 {
   font-size: 1.3rem;
 }
 
-h5{
+h5 {
   font-size: 1rem;
 }
 
@@ -67,7 +72,9 @@ p {
   margin: 0 0 1rem;
 }
 
-ul, ol, dl {
+ul,
+ol,
+dl {
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -122,15 +129,15 @@ ol {
   }
 }
 
-p + h1,
-p + h2,
-p + h3,
-ul + h1,
-ul + h2,
-ul + h3,
-ol + h1,
-ol + h2,
-ol + h3 {
+p+h1,
+p+h2,
+p+h3,
+ul+h1,
+ul+h2,
+ul+h3,
+ol+h1,
+ol+h2,
+ol+h3 {
   margin-top: 1.5rem;
 }
 

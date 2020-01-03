@@ -1,7 +1,7 @@
 * {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -24,29 +24,29 @@ body {
 .content-container {
   max-width: 38rem;
   padding: 2rem 1.5rem;
-  margin-left:  auto;
+  margin-left: auto;
   margin-right: auto;
 
-  @media (min-width: 38rem){
+  @media (min-width: 38rem) {
     padding: 2rem 1rem;
   }
 }
 
 h1.blog-title {
-    font-size: 50px;
-    line-height: 52px;
-    margin-top: 0px;
-    margin-bottom: 5px;
-    padding: 0rem 0.75rem;
+  font-size: 50px;
+  line-height: 52px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  padding: 0rem 0.75rem;
 }
 
 h1.blog-subtitle {
-    font-size: 26px;
-    line-height: 32px;
-    margin-top: 0px;
-    margin-bottom: 15px;
-    margin-left: 1px;
-    padding: 0rem 0.75rem;
+  font-size: 26px;
+  line-height: 32px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  margin-left: 1px;
+  padding: 0rem 0.75rem;
 }
 
 
@@ -58,8 +58,9 @@ h1.blog-subtitle {
 
   &-title {
     font-weight: 300;
+
     a {
-      color: $base-color;
+      color: $text-color;
 
       &:hover,
       &:focus {
@@ -68,7 +69,7 @@ h1.blog-subtitle {
     }
 
     span {
-      color: lighten($base-color, 60);
+      color: $text-color;
     }
 
   }
@@ -81,8 +82,8 @@ h1.blog-subtitle {
       font-weight: 300;
       text-transform: lowercase;
       -webkit-transition: all .2s ease;
-         -moz-transition: all .2s ease;
-              transition: all .2s ease;
+      -moz-transition: all .2s ease;
+      transition: all .2s ease;
 
       &:hover,
       &:focus {
@@ -90,7 +91,7 @@ h1.blog-subtitle {
         text-decoration: none;
       }
 
-      + a {
+      +a {
         margin-left: .25rem;
       }
     }
@@ -98,20 +99,20 @@ h1.blog-subtitle {
 }
 
 .header-small {
-	text-align: left;
-	margin-bottom: .75rem;
-	font-size: .75rem;
-	font-weight: 600;
-	text-transform: uppercase;
+  text-align: left;
+  margin-bottom: .75rem;
+  font-size: .75rem;
+  font-weight: 600;
+  text-transform: uppercase;
 
-	a {
-		color: $base-color;
+  a {
+    color: $base-color;
 
-		&:hover,
-		&:focus {
-			text-decoration: none;
-		}
-	}
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
 }
 
 /*--------------
@@ -143,26 +144,30 @@ h1.blog-subtitle {
 
   &-tag {
     margin-bottom: 1rem;
+
     .tag {
       display: inline-block;
       margin: 4px;
       margin-left: 0px;
-      color: #fff;
-      background-color: $base-lighten-color;
+      color: #000;
+      background-color: $base-color;
       text-decoration: none;
-			border-radius: 3px;
+      border-radius: 3px;
     }
+
     li {
       font-size: .75rem;
       display: inline;
       list-style-type: none;
       text-transform: lowercase;
     }
+
     span {
       float: left;
-			padding: .5px 5px;
+      padding: .5px 5px;
     }
   }
+
   &-share {
     margin-bottom: 1rem;
   }
@@ -175,10 +180,12 @@ h1.blog-subtitle {
 .list {
   &-post {
     padding: 4% 2%;
+
     &:hover {
-    background-color: $background-over-color;
-    border-color: transparent;
-    border-radius: 10px;
+      background-color: #000;
+      border-color: transparent;
+      color: $base-color;
+      border-radius: 10px;
     }
 
     a {
@@ -192,7 +199,7 @@ h1.blog-subtitle {
 
     &-title {
       margin-bottom: .25rem;
-      font-size : 1.6rem;
+      font-size: 1.6rem;
       font-weight: 600;
     }
 
@@ -203,9 +210,9 @@ h1.blog-subtitle {
     }
 
     &-desc {
-			color: lighten($base-color, 20);
+      color: lighten($base-color, 20);
       margin-bottom: .25rem;
-      font-size :1rem;
+      font-size: 1rem;
     }
   }
 
@@ -217,6 +224,7 @@ h1.blog-subtitle {
     &-previous {
       float: left;
       padding-left: 2%;
+
       a {
         color: $base-lighten-color;
 
@@ -231,6 +239,7 @@ h1.blog-subtitle {
     &-next {
       float: right;
       padding-right: 2%;
+
       a {
         color: $base-lighten-color;
 
@@ -258,42 +267,46 @@ h1.blog-subtitle {
     a {
       display: inline-block;
       margin: 1px 4px;
-      color: #fff;
-      background-color: lighten($base-color,50);
-			border-radius: 3px;
+      color: #000;
+      background-color: $base-color;
+      border-radius: 3px;
+
       span {
         float: left;
         padding: .5px 5px;
       }
+
       .count {
-        background-color: lighten($base-color,40);
-				border-radius: 0 3px 3px 0;
+        background-color: lighten($base-color, 40);
+        border-radius: 0 3px 3px 0;
       }
+
       &:hover {
-        background-color: lighten($base-color,40);
+        background-color: lighten($base-color, 40);
       }
     }
   }
 
   &-title {
-		font-size: 1.4rem;
-		font-weight: 600;
-		text-transform: lowercase;
-		padding-top: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: lowercase;
+    padding-top: 1rem;
   }
 
   &-post {
-		padding-left: .75rem;
-		a {
-			color: $base-color;
+    padding-left: .75rem;
 
-			&:hover {
-				color: $base-color;
-				text-decoration: none;
-				background-color: $background-over-color;
-		    border-color: transparent;
+    a {
+      color: $base-color;
+
+      &:hover {
+        color: $base-color;
+        text-decoration: none;
+        background-color: $background-over-color;
+        border-color: transparent;
       }
-		}
+    }
   }
 }
 
@@ -308,17 +321,17 @@ h1.blog-subtitle {
         color: $base-color;
 
         &:hover {
-  				color: $base-color;
-  				text-decoration: none;
-  				background-color: $background-over-color;
-  		    border-color: transparent;
+          color: $base-color;
+          text-decoration: none;
+          background-color: $background-over-color;
+          border-color: transparent;
         }
 
       }
 
 
       &-title {
-        font-size : 0.9rem;
+        font-size: 0.9rem;
         font-weight: 400;
       }
 
