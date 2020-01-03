@@ -12,6 +12,6 @@ He enjoys a good challenge and loves working in better and more efficient ways t
 
 Outside of work, he likes to watch NFL and discuss politics, sometimes simultaneously. He thinks the internet is the second greatest invention of humanity, just second to bacon.
 
-He currently lives in Guadalajara, Mexico. A long time ago he created Airescopio.com.
+He currently lives in Guadalajara, Mexico. A long time ago he created Airescopio.
 
 Specialties: Node JS, JavaScript, Docker & Linux.
