@@ -1,0 +1,18 @@
+#!/bin/bash
+
+DATE=$(date +%F)
+UUID=$(uuidgen | tr -d - | tr -d '\n' | tr '[:upper:]' '[:lower:]')
+
+POST_NAME=${DATE}-${UUID}
+ROUTE=_posts/${POST_NAME}.markdown
+
+echo "Creating post on route ${ROUTE}"
+touch ${ROUTE}
+
+echo "---
+layout: post
+title: @TITLE@
+description: @DESCRIPTION@
+tags:
+- @TAG@
+---" > ${ROUTE}

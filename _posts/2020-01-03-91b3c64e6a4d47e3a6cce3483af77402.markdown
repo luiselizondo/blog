@@ -1,0 +1,31 @@
+---
+layout: post
+title: How to analyse a text file with millions of lines
+description: Let's say that you have a file with millions of lines and you need to analyse it.
+tags:
+- bash
+- linux
+- logs
+---
+
+Let's say that you have a file with millions of lines and you need to analyse it. A common use case for this is a log file that you want to understand how many users made a request to a particular route.
+
+I had a case like this one recently and here's what I did.
+
+The first thing you need to do is determine the pattern you are trying to find to count it. Let's say that we had a log saying 'Accessing POST /api/login' and that's what determines if a user is attempting to login to your site, which is what we want to find out.
+
+Once you have a defined pattern it is actually really easy to do:
+
+```
+cat file.txt | grep 'Accessing POST /api/login' > count-results.txt
+```
+
+As you can see, I do a `cat` on the file and filter the results by the string we want to count, finally, I send all the results to a text file.
+
+The second step would be to count the lines in this new file, since now I know I only have the results I want.
+
+```
+wc -l count-results.txt
+```
+
+And that's it, I'll get how many requests were made to the route /api/login

@@ -6,7 +6,7 @@ permalink: /about/
 
 ![Luis Elizondo]({{ "/assets/images/Luis_Elizondo.jpeg" | relative_url }})
 
-Luis is the lead DevOps Engineer at Rever. He has more than 9 years of experience working with multiple programming languages, designing application architectures and administering servers on the cloud. He's been involved with Open Source communities since 2007 and has lead local open source communities in the past, which brought him to IBM.
+Luis is the Chief Technology Officer at Rever. He has more than 11 years of experience working with multiple programming languages, designing application architectures and administering servers on the cloud. He's been involved with Open Source communities since 2007 and has lead local open source communities in the past, which brought him to IBM.
 
 He enjoys a good challenge and loves working in better and more efficient ways to do things through technology.
 
@@ -14,4 +14,4 @@ Outside of work, he likes to watch NFL and discuss politics, sometimes simultane
 
 He currently lives in Guadalajara, Mexico. A long time ago he created Airescopio.com.
 
-Specialties: Drupal, Titanium Studio, Node JS, JavaScript, Docker & Linux.
+Specialties: Node JS, JavaScript, Docker & Linux.
